@@ -1,0 +1,4 @@
+This example project writes the pot values ​​it reads to the screen 
+and if they are within the specified value range it writes the name defined in that value range to the screen. 
+It does not send a signal via Bluetooth and this code is actually a gesture control glove code. 
+It takes the value with the movement of the fingers and gives it an animation name. I made it to connect it to a robot I made. I thought it might be good example
