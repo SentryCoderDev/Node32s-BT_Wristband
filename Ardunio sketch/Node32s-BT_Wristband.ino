@@ -4,18 +4,18 @@
 BluetoothSerial SerialBT;
 
 // LCD Screen Pins
-const int rs = 16; // Dijital Pin 16
-const int en = 17; // Dijital Pin 17
+const int rs = 16; // Digital Pin 16
+const int en = 17; // Digital Pin 17
 const int d4 = 18; // Dijital Pin 18
-const int d5 = 19; // Dijital Pin 19
-const int d6 = 5;  // Dijital Pin 20
-const int d7 = 21; // Dijital Pin 21
+const int d5 = 19; // Digital Pin 19
+const int d6 = 5;  // Digital Pin 20
+const int d7 = 21; // Digital Pin 21
 
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
-  SerialBT.begin("SentryESP32"); // Bluetooth cihaz adı
-  Serial.begin(115200);          // Seri iletişim hızı
+  SerialBT.begin("SentryESP32"); // Bluetooth device name
+  Serial.begin(115200);
 
   // Define GPIO Pins For Potantiometer
   pinMode(34, INPUT);
